@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/pictureImageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/usa" />
+
+
+    <LinearLayout
+        android:id="@+id/_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pictureImageView"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pictureImageView"
+            android:layout_weight="14"
+            android:paddingBottom="15dp"
+            android:text="@string/sample_name"
+            android:textAlignment="center"
+            android:textColor="#ff00"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/menuImageView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pictureImageView"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@id/nameTextView"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/_layout"
+        android:layout_marginTop="20dp"
+        android:background="#ff0">
+
+    </View>
+
+</RelativeLayout>

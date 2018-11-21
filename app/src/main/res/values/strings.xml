@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Recycler-View-With-Menu-Option</string>
+    <string name="sample_name">Sample Name</string>
+
+
+    <string-array name="user_list">
+        <item>United States</item>
+        <item>Russia</item>
+        <item>China</item>
+        <item>United Kingdom</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>Japan</item>
+        <item>Israel</item>
+        <item>Saudi Arabia</item>
+        <item>United Arab Emirates</item>
+    </string-array>
+
+
+    <integer-array name="image_list">
+        <item>@drawable/usa</item>
+        <item>@drawable/russia</item>
+        <item>@drawable/china</item>
+        <item>@drawable/uk</item>
+        <item>@drawable/germany</item>
+        <item>@drawable/france</item>
+        <item>@drawable/japan</item>
+        <item>@drawable/israel</item>
+        <item>@drawable/saudi_arabia</item>
+        <item>@drawable/uae</item>
+    </integer-array>
+</resources>
